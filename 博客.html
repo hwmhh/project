@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My Blog</title>
+<link rel="stylesheet" href="public.css">
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<style type="text/css">
+*{
+	margin:0;
+    padding:0;
+}
+h2{
+	font-size:24px;
+	font-weight:700;
+	font-family:"Microsoft YaHei",微软雅黑;
+}
+a{
+    text-decoration:none;	
+ }
+ .all{
+	background:url(banner.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+nav{
+    background:rgba(0,0,0,0.4);
+	height:40px;
+}
+.name{
+	float:left;
+	line-height:40px;
+	color:#FFF;
+	font-size:23px;
+	font-weight:700;
+	}
+	
+nav ul li{
+    float:right;
+	list-style:none;
+	line-height:40px;
+	margin-right:20px;	
+	}
+	
+nav ul li a{
+    line-height:inherit;
+	display:inline-block;
+	color:#FFF;
+	}
+
+.banner{
+	 background:rgba(0,0,0,0.4);
+	height:700px;
+	color:#FFF;
+	
+	}
+.banner h1{
+	font-family:"Microsoft YaHei",微软雅黑;
+    font-size:30px;	
+	font-weight:900;
+	margin:10px 0;
+	}
+.banner hr{
+    height:2px;	
+	}
+.inner{
+	width:300px;
+	text-align:center;
+    margin:0 auto;
+	position:relative;
+	top:150px;	
+	}
+button{
+	width:70px;
+	height:40px;
+	border:none;
+	background:#0CF;
+	color:#eee;
+	margin:30px;
+	cursor:pointer;
+}
+.more{
+    margin-top:300px;
+	position:absolute;
+	left:668px;
+	top:380px;
+	font-weight:700;
+	color:#666;	
+	}
+.green-section{
+    background:#089db0;
+	text-align:center;
+	color:#FFF;
+	padding:180px 0;	
+	}
+.green-section h1{
+	font-family:"Microsoft YaHei",微软雅黑;	
+    font-size:24px;
+	font-weight:700;
+}
+.green-section .wrap hr{
+	background:#078494;
+    height:2px;
+	margin:20px auto;
+	width:60%;	
+}
+.green-section .wrap p{
+    text-align:center;	
+	}
+.green-section .icon-group .icon{
+    display:inline-block;
+	background:#0d6f7d;	
+	width:70px;
+	height:70px;
+	transform:rotate(45deg);
+	margin:50px 20px;
+}
+.gray-section{
+	height:100%;
+	overflow:hidden;!important;
+	background:#252F34;
+	}
+.gray-section .img{
+    width:45%;
+	border:0;	
+}
+.gray-section .img img{
+	width:100%;
+}
+.text{
+	width:55%;
+	color:#FFF;
+	position:relative;
+	top:70px;
+	left:50px;
+}
+.text > *{
+	max-width:90%;
+	}
+.gray-section .text h2{
+	margin-bottom:2px;
+	letter-spacing:2px;
+}
+.gray-section .text p{
+	font-size:18px;
+	letter-spacing:1px;
+	}
+.art >div{
+	float:left;
+}
+.art:nth-child(odd){
+	background-color:rgba(255,255,255,0.08);
+}
+.art:after{
+	content:"";
+	display:block;
+	clear:both;
+	}
+.purple-section{
+	background:#6F6;
+	color:#FFF;
+	padding:80px;
+}
+.heading-wrapping{
+	text-align:center;
+	width:60%;
+	margin:0 auto;
+	} 
+.purple-section p{
+	padding-top:30px;
+	
+}
+.card-group{
+	padding:100px;
+	margin:0 auto;
+	}
+.card{
+	width:50%;
+	float:left;
+	padding:43px;
+	min-height:300px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.card h3{
+	font-family:"Microsoft YaHei",微软雅黑;	
+    font-size:18px;
+}
+.card:first-child{
+	background:rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+	background:rgba(0,0,0,0.08);
+}
+.card:nth-child(3){
+	background:rgba(0,0,0,0.12);
+}
+.card:nth-child(4){
+	background:rgba(0,0,0,0.16);
+}
+.card:nth-child(5){
+	background:rgba(0,0,0,0.20);
+}
+.card:nth-child(6){
+	background:rgba(0,0,0,0.24);
+}
+footer{
+	background:#333;
+	color:#FFF;
+	min-height:200px;
+	text-align:center;
+}
+.share-group{
+	width:100%;
+	margin:0 auto;
+	display:block;
+	padding:30px;
+	}
+.share-group li{
+	margin:0 auto;
+	display:inline-block;
+	padding:10px;
+}
+.last{
+	margin:0 auto;
+	padding-top:50px;
+	}
+</style>
+</head>
+
+<body>
+<div class="all">
+  <header>
+ <nav>
+   <ul>
+     <a href="#" class="name">张小窝</a>
+     <li><a href="#">链接1</a></li>
+     <li><a href="#">链接2</a></li>
+     <li><a href="#">链接3</a></li>
+     <li><a href="#">链接4</a></li>
+   </ul>
+ </nav>
+ <div class="banner">
+   <div class="inner">
+     <hr></hr>
+     <h1>张小窝</h1>
+     <hr></hr>
+     <p>Acting as if nothing borne in mind is the best revenge.It's all for myself to live better</p>  
+     <button>了解我</button>
+   </div>
+   <div class="more">更多</div>
+ </div>
+</header>
+
+  <div class="content">
+  <section class="green-section">
+      <div class="wrap">
+        <h1>第一标题</h1>
+        <hr></hr>
+        <p>Acting as if nothing borne in mind is the best revenge.It's all for myself to live better</p>
+      </div>
+      
+      <div class="icon-group">
+        <span class="icon">item1</span>
+        <span class="icon">item2</span>
+        <span class="icon">item3</span>
+      </div>
+    
+  </section>
+  <section class="gray-section">
+    <div class="art">
+      <div class="img">
+        <img src="pic01.jpg" alt="">
+      </div>
+      <div class="text">
+        <h2>第二个标题</h2>
+        <p>How blessed are some people, whose lives have no fears, no dreads, to whom sleep is a blessing that comes nightly, and brings nothing but sweet dreams.</p>
+      </div>
+    </div>
+    
+    <div class="art"> 
+      <div class="text">
+        <h2>第三个标题</h2>
+        <p>How blessed are some people, whose lives have no fears, no dreads, to whom sleep is a blessing that comes nightly, and brings nothing but sweet dreams.</p>
+      </div>
+      <div class="img">
+        <img src="pic02.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="art">
+      <div class="img">
+        <img src="pic03.jpg" alt="">
+      </div>
+      <div class="text">
+        <h2>第四个标题</h2>
+        <p>How blessed are some people, whose lives have no fears, no dreads, to whom sleep is a blessing that comes nightly, and brings nothing but sweet dreams.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="purple-section">
+    <div class="heading-wrapping">
+      <h2>第五个标题</h2>
+      <p>Youth is not a time of life; it is a state of mind; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of the imagination, a vigor of the emotions; it is the freshness of the deep springs of life.</p>
+    </div>
+    <div class="card-group clearfix">
+      <div class="card">
+        <h3>小标题</h3>
+        <p>How blessed are some people, whose lives have no fears, no dreads, to whom sleep is a blessing that comes nightly, and brings nothing but sweet dreams.</p>
+      </div>
+      
+      <div class="card">
+        <h3>小标题</h3>
+        <p>How blessed are some people, whose lives have no fears, no dreads, to whom sleep is a blessing that comes nightly, and brings nothing but sweet dreams.</p>
+      </div>
+      
+      <div class="card">
+        <h3>小标题</h3>
+        <p>How blessed are some people, whose lives have no fears, no dreads, to whom sleep is a blessing that comes nightly, and brings nothing but sweet dreams.</p>
+      </div>
+      
+      <div class="card">
+        <h3>小标题</h3>
+        <p>How blessed are some people, whose lives have no fears, no dreads, to whom sleep is a blessing that comes nightly, and brings nothing but sweet dreams.</p>
+      </div>
+      
+      <div class="card">
+        <h3>小标题</h3>
+        <p>How blessed are some people, whose lives have no fears, no dreads, to whom sleep is a blessing that comes nightly, and brings nothing but sweet dreams.</p>
+      </div>
+      
+      <div class="card">
+        <h3>小标题</h3>
+        <p>How blessed are some people, whose lives have no fears, no dreads, to whom sleep is a blessing that comes nightly, and brings nothing but sweet dreams.</p>
+      </div>
+     
+    </div>
+  </section>
+</div>
+
+
+  <footer>
+     <ul class="share-group">
+        <li><a href="#"><img src="1.png"></a></li>
+        <li><a href="#"><img src="2.png"></a></li>
+        <li><a href="#"><img src="3.png"></a></li>
+        <li><a href="#"><img src="4.png"></a></li>
+        <li><a href="#"><img src="5.png"></a></li>
+     </ul>
+     <div class="last">
+        &copy Copyright
+        <br>All Rights Reserved
+     </div>
+  </footer>
+</div>
+</body>
+</html>
